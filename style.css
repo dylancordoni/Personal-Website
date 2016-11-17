@@ -1,23 +1,43 @@
 body {
 	font-family: cursive;
+	background-color: #a482ba;
 }
-h1 {
-	margin-left: 50px;
-	margin-bottom: 50px;
 
+h1 {
+	padding: 20px;
+	font-size: 60px;
+	margin-left: 30%;
+	text-shadow: 2px 2px purple;
+	font-style: italic;
+}
+h3{
+	font-size: 25px;
+}
+.intro {
+	padding: 10px;
+}
+.intro p {
+	font-size: 22px;
+	margin-left: 20%;
+}
+#ulist {
+	margin-left: 25%;
 }
 table {
 	border: 3px solid black;
 	box-shadow: 10px 10px purple;
+	margin-left: 35%;
 }
 th, td {
 	border: 1px solid black;
+	padding: 8px;
 }
 th{
 	font-weight: bold;
 	font-style: italic;
 }
 .table p {
+	margin-left: 18%;
 	font-size: 24px;
 	font-weight: bold;
 }
@@ -27,8 +47,23 @@ th{
 	margin-left: 22%;
 }
 footer {
+	font-family: serif;
 	font-size: .8em;
 	margin-left: 48%
+}
+#side-pizza {
+	margin-left: 20%;
+	width: 60%;
+	height: 60%;
+	z-index: -1;
+	position: absolute;
+}
+#foot{
+	color: white;
+}
+#pizza-prize {
+	font-size: 24px;
+	margin-left: 30%;
 }
 a: link{
 	color: green;
@@ -41,4 +76,9 @@ a: hover{
 }
 a: active{
 	color: purple;
+}
+@media screen and (max-width: 500px) {
+table {
+	min-width: 300px;
+}
 }
